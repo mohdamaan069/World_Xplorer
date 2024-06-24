@@ -31,7 +31,7 @@ World Xplorer is a MERN stack web application that allows users to share places 
 - **Database**: MongoDB
 - **Authentication**: bcrypt, JWT
 - **File Upload**: Multer
-- **Maps and Geocoding**: Google Maps API, Google Geocoding API
+- **Maps and Geocoding**: Google Maps API, LocationIQ API
 
 ## Installation
 
@@ -65,10 +65,10 @@ cd World-Xplorer
 3. Create a `.env` file and add your configuration:
 
     ```plaintext
-    PORT=5000
-    MONGO_URI=your_mongodb_connection_string
-    JWT_SECRET=your_jwt_secret
-    GOOGLE_MAPS_API_KEY=your_google_maps_api_key
+    DB_NAME=
+    USER_NAME=
+    USER_PASSWORD=
+
     ```
 
 4. Start the backend server:
@@ -94,8 +94,7 @@ cd World-Xplorer
 3. Create a `.env` file and add your configuration:
 
     ```plaintext
-    REACT_APP_GOOGLE_MAPS_API_KEY=your_google_maps_api_key
-    REACT_APP_BACKEND_URL=http://localhost:5000/api
+    REACT_APP_BACKEND_LINK=http://localhost:5000
     ```
 
 4. Start the frontend development server:
@@ -111,6 +110,8 @@ cd World-Xplorer
 3. Log in with your account.
 4. Share a new place by providing details and uploading an image.
 5. View the shared places on the map.
+
+   Live Link: [Click here to visit!](https://xplorer-kappa.vercel.app/)
 
 ## File Structure
 
