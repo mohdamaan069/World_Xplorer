@@ -111,7 +111,7 @@ cd World-Xplorer
 4. Share a new place by providing details and uploading an image.
 5. View the shared places on the map.
 
-   Live Link: [Click here to visit!](https://xplorer-kappa.vercel.app/)
+   **Live Link:** [Click here to visit!](https://xplorer-kappa.vercel.app/)
 
 ## File Structure
 
